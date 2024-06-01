@@ -8,6 +8,7 @@ import {
   MenuItem,
   MenuItems,
   Transition,
+  Button,
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/logo.png";
@@ -83,14 +84,20 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
+                <Button
                   type="button"
-                  className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="relative text-sm text-sky-400 font-bold w-40 hover:text-sky-600 hover:border-0 h-12 hover:border-sky-400"
                 >
-                  <span className="absolute -inset-1.5" />
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
+                  Sign Up
+                </Button>
+
+                <Button
+                  type="button"
+                  style={{ backgroundColor: colors.Primary["primary-400"] }}
+                  className="relative  bg-sky text-sm text-white font-bold w-24 hover:bg-sky-600 hover:border-0  hover:border-sky-400 h-10 rounded-md"
+                >
+                  Sign In
+                </Button>
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
