@@ -11,6 +11,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/logo.png";
+import colors from "../../styles/colors";
 
 const navigation = [
   { name: "Dashboard", href: "#", current: true },
@@ -45,6 +46,13 @@ export default function NavBar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img className="h-8 w-auto" src={logo} alt="Tradiant" />
+                  <a
+                    href="#"
+                    className="font-bold hover:font-bold mx-3"
+                    style={{ color: colors.Primary["primary-800"] }}
+                  >
+                    Tradiant.
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
