@@ -56,7 +56,7 @@ export default function NavBar() {
                   <img className="h-8 w-auto" src={logo} alt="Tradiant" />
                   <a
                     href="#"
-                    className="font-bold hover:font-bold mx-3 leading-10 space-x-0"
+                    className="font-bold hover:font-bold text-lg mx-3 leading-10 space-x-0"
                     style={{ color: colors.Primary["primary-800"] }}
                   >
                     Tradiant.
@@ -72,7 +72,7 @@ export default function NavBar() {
                           item.current
                             ? " text-sky-600 font-bold "
                             : "text-gray-400 hover:bg-sky-600 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "rounded-md px-3 py-2 text-base font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
