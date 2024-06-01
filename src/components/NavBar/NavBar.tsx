@@ -48,7 +48,7 @@ export default function NavBar() {
                   <img className="h-8 w-auto" src={logo} alt="Tradiant" />
                   <a
                     href="#"
-                    className="font-bold hover:font-bold mx-3"
+                    className="font-bold hover:font-bold mx-3 leading-10 space-x-0"
                     style={{ color: colors.Primary["primary-800"] }}
                   >
                     Tradiant.
