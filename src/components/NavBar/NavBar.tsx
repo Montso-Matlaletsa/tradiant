@@ -14,10 +14,11 @@ import logo from "../../assets/logo.png";
 import colors from "../../styles/colors";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "About Us", href: "#", current: true },
+  { name: "Why Us?", href: "#", current: false },
+  { name: "Blog", href: "#", current: false },
+  { name: "Journey", href: "#", current: false },
+  { name: "Help", href: "#", current: false },
 ];
 
 function classNames(...classes: string[]) {
