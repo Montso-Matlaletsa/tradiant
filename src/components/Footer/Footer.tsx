@@ -3,11 +3,11 @@ import logo from "../../assets/big-logo.png";
 
 export const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white dark:bg-gray-50">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
           <div className="md:col-span-1">
-            <div className="mb-6 md:mb-0">
+            <div className="flex mb-6 md:mb-0 flex-col">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
                   src={logo}
@@ -18,6 +18,12 @@ export const Footer = () => {
                   Tradiant.
                 </span>
               </a>
+
+              <p className=" p-5 text-gray-600 text-sm leading-6 space-x-1">
+                Maximize your investment in the capital <br /> market world with
+                the convenience and <br /> various features provided by
+                Tradiant.
+              </p>
             </div>
           </div>
 
