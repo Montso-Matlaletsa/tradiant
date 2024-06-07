@@ -24,6 +24,10 @@ export const Footer = () => {
                 the convenience and <br /> various features provided by
                 Tradiant.
               </p>
+
+              <p className="pl-5 text-gray-600 text-base leading-6 space-x-1 ">
+                Montso Matlaletsa
+              </p>
             </div>
           </div>
 
